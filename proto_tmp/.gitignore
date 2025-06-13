@@ -2,3 +2,6 @@
 *.ez
 /build
 erl_crash.dump
+
+bins/bundle.js
+bins/proto_tmp
