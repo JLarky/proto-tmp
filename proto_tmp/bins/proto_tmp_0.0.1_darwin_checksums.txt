@@ -1,1 +1,0 @@
-1ce67ac77c50034fcc39ecb427202a5fe8695ed8de148a448cfc595a97f8b235  bins/proto_tmp_0.0.1_darwin.tar.gz

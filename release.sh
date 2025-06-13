@@ -24,8 +24,8 @@ fi
 
 # Step 5: Upload artifacts to the release
 gh release upload "$TAG" \
-  bins/proto_tmp_${VERSION}_darwin.tar.gz \
-  bins/proto_tmp_${VERSION}_darwin_checksums.txt \
+  proto_tmp/bins/proto_tmp_${VERSION}_darwin.tar.gz \
+  proto_tmp/bins/proto_tmp_${VERSION}_darwin_checksums.txt \
   --clobber
 
 echo "Release $TAG created and artifacts uploaded." 
