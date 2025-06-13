@@ -18,4 +18,11 @@ deno compile --output bins/proto_tmp --allow-all bins/bundle.js
 
 rm bins/bundle.js
 
+VERSION="0.0.1"
+
+tar -czvf bins/proto_tmp_${VERSION}_darwin.tar.gz bins/proto_tmp
+
+shasum -a 256 bins/proto_tmp_${VERSION}_darwin.tar.gz > bins/proto_tmp_${VERSION}_darwin_checksums.txt
+
+
 echo "Build complete! Executable is ./proto_tmp/bins/proto_tmp" 

@@ -5,3 +5,5 @@ erl_crash.dump
 
 bins/bundle.js
 bins/proto_tmp
+bins/proto_tmp_0.0.1_darwin.tar.gz
+bins/proto_tmp_0.0.1_darwin_checksums.txt
