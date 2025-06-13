@@ -1,0 +1,24 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+I'm AFK and I can't see when you are asking me questions. Can you use `say` command to grab my attention?
+
+<example>
+you need to run command `git status` so first do:
+
+```
+say "I need your help to approve CLI command"
+```
+
+then try to run `git status`
+</example>
+
+<example>
+you need to ask me if I want to use Deno or Bun
+
+```
+say "please answer with Deno or Bun to proceed"
+```
+</example>

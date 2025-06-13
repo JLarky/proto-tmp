@@ -1,6 +1,8 @@
 name = "proto_tmp"
 version = "1.0.0"
 
+target = "javascript"
+
 # Fill out these fields if you intend to generate HTML documentation or publish
 # your project to the Hex package manager.
 #
@@ -17,3 +19,6 @@ gleam_stdlib = ">= 0.44.0 and < 2.0.0"
 
 [dev-dependencies]
 gleeunit = ">= 1.0.0 and < 2.0.0"
+
+[javascript]
+runtime = "deno"
