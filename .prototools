@@ -1,0 +1,2 @@
+[plugins]
+gleam = "https://raw.githubusercontent.com/vancegillies/proto-gleam-plugin/main/gleam.toml"
