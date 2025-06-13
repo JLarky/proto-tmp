@@ -14,7 +14,7 @@ MAIN_JS="build/dev/javascript/proto_tmp/gleam.main.mjs"
 bun build "$MAIN_JS" --outfile bins/bundle.js --target bun
 
 # Step 5: Compile the bundled JS to a Deno executable
-deno compile --output bins/tmp --allow-all bins/bundle.js
+bun build --compile --minify --bytecode --sourcemap bins/bundle.js --outfile bins/tmp
 
 rm bins/bundle.js
 
