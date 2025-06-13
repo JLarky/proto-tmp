@@ -20,7 +20,7 @@ rm bins/bundle.js
 
 VERSION=$(grep '^version' gleam.toml | awk -F'=' '{print $2}' | tr -d ' "')
 
-tar -czvf bins/proto_tmp_${VERSION}_darwin.tar.gz bins/tmp
+(cd bins; tar -czvf proto_tmp_${VERSION}_darwin.tar.gz tmp)
 
 shasum -a 256 bins/proto_tmp_${VERSION}_darwin.tar.gz > bins/proto_tmp_${VERSION}_darwin_checksums.txt
 
