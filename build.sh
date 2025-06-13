@@ -18,7 +18,7 @@ deno compile --output bins/tmp --allow-all bins/bundle.js
 
 rm bins/bundle.js
 
-VERSION="0.0.1"
+VERSION=$(grep '^version' gleam.toml | awk -F'=' '{print $2}' | tr -d ' "')
 
 tar -czvf bins/proto_tmp_${VERSION}_darwin.tar.gz bins/tmp
 

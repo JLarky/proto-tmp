@@ -5,7 +5,7 @@ set -e
 ./build.sh
 
 # Step 2: Set version and tag
-VERSION="0.0.1"
+VERSION=$(grep '^version' proto_tmp/gleam.toml | awk -F'=' '{print $2}' | tr -d ' "')
 TAG="v$VERSION"
 
 # Step 3: Create a git tag if it doesn't exist
