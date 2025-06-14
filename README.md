@@ -21,7 +21,7 @@ proto plugin add --to global tmp https://raw.githubusercontent.com/JLarky/proto-
 proto install -c global tmp
 ```
 
-<img height="411" width="1024" src="https://github.com/user-attachments/assets/7e93fba6-3852-4ff2-bc4b-12311ce7cfa2" />
+![Image](https://github.com/user-attachments/assets/7ecacd73-6bac-4135-9cc1-9feecdc3cfd4)
 
 Now you should be able to run `tmp` from the command line.
 
@@ -39,7 +39,7 @@ alias tmp='cd $(~/.proto/shims/tmp)'
 tmp
 ```
 
-<img height="411" width="1024" src="https://github.com/user-attachments/assets/4489d543-7fe9-46ff-a0be-1416a0620681" />
+![Image](https://github.com/user-attachments/assets/8779f9fa-c725-4f1a-a545-373f080e38bb)
 
 ## uninstall tmp
 
