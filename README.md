@@ -23,8 +23,6 @@ proto install -c global tmp
 
 ![Image](https://github.com/user-attachments/assets/7ecacd73-6bac-4135-9cc1-9feecdc3cfd4)
 
-Now you should be able to run `tmp` from the command line.
-
 ## configure your shell
 
 add this alias to your shell (if you don't the command will still create the directory in `/tmp` but you'd have to cd to it manually):
